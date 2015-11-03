@@ -1,0 +1,26 @@
+<link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+    <style>
+      #body {
+        font-family: 'Philosopher', serif;
+        font-size: 20px;
+      }
+       #nav {
+    width:600px;
+    height:460px;
+    background-image: url("8bitfc.gif");
+    
+    }
+
+       h3 {
+    color: #FFF;
+    }
+       #pagelist {
+       	color:#fff68f;
+       	font-size: 30px
+       }
+
+       #sociallinks {
+       	float: left;
+       	
+
+       }
