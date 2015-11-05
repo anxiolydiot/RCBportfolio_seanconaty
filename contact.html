@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel= "stylesheet" type= "text/css" href="style.css" />
-	<title> CONATCT ME </title>
+<link rel= "stylesheet" type= "text/css" href="inputs.css" />
 </head>
 <body>
-h1>  <h1>
-<h2> Contact Me <br> 
-<form> 
-	<form action="getform.php" method="get">
-  First name:<br>
-  <input type="text" name="firstname" placeholder="Your First Name" value="">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" placeholder="Your Last Name" value="">
-  <br>
-  email:<br>
-  <input type="text" name="email" placeholder="Your Company email address" value="">
-  <br>
-  Company name:<br>
-  <input type="text" name="company" placeholder="Your Company Name" value="">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
-<h3> ABOUT ME </h3>
- <br> <img src="pic.JPG" alt="pic" height="400" width="400">
-
+<form action="getform.php" method="get" class="contact-style">
+    <h1>
+        <span>Please fill all of these out, so I can get back to you the most relevent information you're looking for.</span>
+    </h1>
+    <label>
+        <span>Your Name :</span>
+        <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Anything you'd like to ask or tell me"></textarea>
+    </label> 
+     <label>
+        <span>Subject :</span><select name="selection">
+        <option value="Job Inquiry">Job Inquiry</option>
+        <option value="General Question">General Question</option>
+        <option value="You Suck and Here's Why">You Suck and Here's Why</option>
+        <option value="You're Kinda Neat and Here's Why">You're kinda Neat and Here's Why</option>
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="submit" /> 
+    </label>    
+</form>
+<footer> 
+<div id="home">
+    <a href="portfolio.html"> <img src="home.gif" alt="home"/> </a>
+</div>
+</footer>
 </body>
 </html>

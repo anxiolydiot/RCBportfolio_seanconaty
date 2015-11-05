@@ -1,19 +1,44 @@
-<link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
-    <style>
-      #body {
+
+  body {
         font-family: 'Philosopher', serif;
         font-size: 20px;
+        background-image: url("ystars.jpg");
+
       }
-       #nav {
+
+  h3{
+
+  }
+  #nav {
     width:600px;
     height:460px;
     background-image: url("8bitfc.gif");
-    
     }
 
-       h3 {
-    color: #FFF;
+#form {
+
+   margin-left: 50%
+    height:500px;
+    background: #6495ED;
+    padding: 0px 30px 20px 0px;
+    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+    font: 20px Arial, Helvetica, sans-serif;
+    color: #6495ED;
+    border-radius: 60px;
+    -webkit-border-radius: 10px;
+}
+
+
+
+
+  h3 {
+    font-family: 'Satisfy', serif;
+        font-size: 20px;
+    color: #fff68f;
     }
+       
+
        #pagelist {
        	color:#fff68f;
        	font-size: 30px
@@ -24,3 +49,6 @@
        	
 
        }
+
+
+      
